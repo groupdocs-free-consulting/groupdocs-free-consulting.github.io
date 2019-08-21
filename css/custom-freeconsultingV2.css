@@ -52,10 +52,11 @@
     color: rgb(255, 255, 255);
     line-height: 1.5;
     text-shadow: none;
+    padding:20px 0px 20px; 
 }
 
 #headerImg{
-    max-width:320px!important;   
+    max-width:320px!important;  
 }
   
 .heading3-line{
@@ -289,7 +290,7 @@
     }
     #headerImg{
         
-        margin-top:-50px!important;
+        margin-top:-80px!important;
     }
 }
 
@@ -307,9 +308,6 @@
         font-size:35px!important;
         margin-top:10px!important;
     }
-    #mainSubHeading{
-        padding:20px 0px 10px 0px;
-    }
     #headerImg{
         max-width: 250px!important;
     }
@@ -317,6 +315,10 @@
     .four-steps-head h3{
         width:auto;
     }
+
+    .bottommenuitems ul li{
+        text-align: center!important;
+    }    
 
 }
 
@@ -330,11 +332,11 @@
     #mainSubHeading{
         font-size: 20px;
         line-height:1.6;
-        padding:20px 0px 10px 0px;       
+     
     }
     #headerImg{
         max-width:250!important;
-        margin: -60px 60px 20px 30px !important;
+        margin: -60px 0px 20px 130px !important;
     }
     
 }
@@ -342,11 +344,9 @@
     .policies-section ul li{
         margin-left:-10px;
     }
-    .sep2{
-        visibility: hidden;
+    .next-links ul li:nth-child(4), .next-links ul li:nth-child(8){
+        visibility:hidden;
     }
-    .bottommenuitems ul li{
-        text-align: center!important;
-    }    
+    
 }
 
