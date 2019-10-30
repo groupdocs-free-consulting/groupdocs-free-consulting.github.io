@@ -1,3 +1,3 @@
-# Aspose Free Consulting Service
+# GroupDocs Free Consulting Service
 
-Check details here: https://aspose-free-consulting.github.io/
+Check details here: https://groupdocs-free-consulting.github.io/
