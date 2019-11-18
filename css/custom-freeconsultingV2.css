@@ -277,76 +277,69 @@
 /*Respnsive Media Queries Start from Here*/
 
 @media (min-width:992px) and (max-width:1024px){
- 
-    #mainHeading{
-        text-align: left;
-     
-    }
-    #mainSubHeading{
-     
-        font-size:20px;       
-        padding-bottom:10px;
- 
-    }
-    #headerImg{
-        
-        margin-top:-80px!important;
-    }
+
+#mainHeading{
+font-size:40px!important;
+}
+#mainSubHeading{
+
+font-size:20px; 
+}
 }
 
 @media (max-width:991px){
-    .colored-bar{
-        visibility: hidden;
-    }
-    .round-list
-    {
-        margin:20px auto 10px auto;
-    }      
+.colored-bar{
+visibility: hidden;
+}
+.round-list
+{
+margin:20px auto 10px auto;
+} 
 
-    #mainHeading
-    {
-        font-size:35px!important;
-        margin-top:10px!important;
-    }
-    #headerImg{
-        max-width: 250px!important;
-    }
+#mainHeading
+{
+font-size:35px!important;
+}
+#headerImg{
+max-width: 250px!important;
+margin-top:-45px!important;
+}
 
-    .four-steps-head h3{
-        width:auto;
-    }
+.four-steps-head h3{
+width:auto;
+}
 
-    .bottommenuitems ul li{
-        text-align: center!important;
-    }    
+.bottommenuitems ul li{
+text-align: center!important;
+} 
 
 }
 
 @media (min-width:769px) and (max-width:991px){
-    #mainHeading{
-        font-size:35px!important;
-        padding-top:10px!important;
-        padding-bottom:10px;
-        text-align:left;
-    }
-    #mainSubHeading{
-        font-size: 20px;
-        line-height:1.6;
-     
-    }
-    #headerImg{
-        max-width:250!important;
-        margin: -60px 0px 20px 130px !important;
-    }
-    
+#mainHeading{
+font-size:35px!important;
+padding-top:10px!important;
+}
+#mainSubHeading{
+font-size: 20px;
+line-height:1.6;
+padding-left: 90px;
+padding-right: 90px;
+}
+#headerImg{
+
+max-width:250px!important;
+margin-left:215px!important;
+}
+
 }
 @media (max-width:450px){
-    .policies-section ul li{
-        margin-left:-10px;
-    }
-    .next-links ul li:nth-child(4), .next-links ul li:nth-child(8){
-        visibility:hidden;
-    }
-    
+.policies-section ul li{
+margin-left:-10px;
+}
+.next-links ul li:nth-child(4), .next-links ul li:nth-child(8){
+visibility:hidden;
+}
+
 }
 
